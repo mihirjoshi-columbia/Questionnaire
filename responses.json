@@ -1,0 +1,62 @@
+{
+    "User_1": {
+        "What is your favorite color?": "Orange",
+        "Who is your favorite music artist?": "The Beatles",
+        "What is your favorite movie genre?": "Action",
+        "What is your favorite food cuisine?": "Japanese",
+        "What is your ideal vacation destination?": "Beach",
+        "What is your preferred hobby?": "Sports",
+        "What is your favorite season?": "Fall",
+        "What is your favorite book genre?": "Romance"
+    },
+    "User_2": {
+        "What is your favorite color?": "Blue",
+        "Who is your favorite music artist?": "BTS",
+        "What is your favorite movie genre?": "Action",
+        "What is your favorite food cuisine?": "Mexican",
+        "What is your ideal vacation destination?": "Beach",
+        "What is your preferred hobby?": "Cooking",
+        "What is your favorite season?": "Winter",
+        "What is your favorite book genre?": "Mystery"
+    },
+    "User_3": {
+        "What is your favorite color?": "Purple",
+        "Who is your favorite music artist?": "Drake",
+        "What is your favorite movie genre?": "Comedy",
+        "What is your favorite food cuisine?": "Chinese",
+        "What is your ideal vacation destination?": "Islands",
+        "What is your preferred hobby?": "Gaming",
+        "What is your favorite season?": "Spring",
+        "What is your favorite book genre?": "Fantasy"
+    },
+    "User_4": {
+        "What is your favorite color?": "Orange",
+        "Who is your favorite music artist?": "BTS",
+        "What is your favorite movie genre?": "Action",
+        "What is your favorite food cuisine?": "Japanese",
+        "What is your ideal vacation destination?": "Beach",
+        "What is your preferred hobby?": "Cooking",
+        "What is your favorite season?": "Spring",
+        "What is your favorite book genre?": "Romance"
+    },
+    "User_5": {
+        "What is your favorite color?": "Red",
+        "Who is your favorite music artist?": "Tyler The Creator",
+        "What is your favorite movie genre?": "Horror",
+        "What is your favorite food cuisine?": "Indian",
+        "What is your ideal vacation destination?": "Italy",
+        "What is your preferred hobby?": "Sleeping",
+        "What is your favorite season?": "Fall",
+        "What is your favorite book genre?": "Fantasy"
+    },
+    "User_6": {
+        "What is your favorite color?": "Orange",
+        "Who is your favorite music artist?": "Taylor Swift",
+        "What is your favorite movie genre?": "Sci-Fi",
+        "What is your favorite food cuisine?": "Mexican",
+        "What is your ideal vacation destination?": "City",
+        "What is your preferred hobby?": "Reading",
+        "What is your favorite season?": "Fall",
+        "What is your favorite book genre?": "Fantasy"
+    }
+}

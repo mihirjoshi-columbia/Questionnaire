@@ -62,9 +62,9 @@ def generate_random_answer(question):
         return f"Test response {random.randint(1, 100)}"
 
 def main():
-    print("Starting simulation of 20 users...")
-    for i in range(20):
-        print(f"Simulating user {i+1}/20")
+    print("Starting simulation of 40 users...")
+    for i in range(40):
+        print(f"Simulating user {i+1}/40")
         simulate_user()
         sleep(random.uniform(1, 2))  # Wait between users
     print("Simulation complete!")
