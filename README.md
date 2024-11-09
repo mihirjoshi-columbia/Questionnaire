@@ -1,70 +1,25 @@
-# Questionnaire Matching System
+# 🎯 Questionnaire Matching System
 
-## Setup
+Ever wanted to group people together but too lazy to do it manually? Same. That's why I built this totally-not-over-engineered system that does it for you! It takes responses from a questionnaire and magically (using math, not actual magic, sorry) groups people based on their compatibility.
 
-1. Clone the repository:
+## 🚀 Setup (I Promise It's Easy)
 
+1. Clone this bad boy:
 ```bash
 git clone https://github.com/yourusername/Questionnaire.git
 cd Questionnaire
 ```
 
-2. Install required packages:
-
+2. Install the goods (aka dependencies):
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Set up your environment:
-   - Copy `.env.template` to create your `.env` file:
-   ```bash
-   cp .env.template .env
-   ```
-   - Edit `.env` and add your OpenAI API key
-
-4. Run the matching system:
+3. Run the thing:
 ```bash
 python matching.py
 ```
 
-## Security Notes
-- Never commit your `.env` file
-- Never share your API keys
-- Regularly rotate your API keys if you suspect they've been compromised
-```
+That's it! No API keys, no environment variables, no sacrificial offerings needed. Just pure, simple, grouping magic. ✨
 
-6. Create a requirements.txt file:
-
-```text:requirements.txt
-pandas
-numpy
-python-dotenv
-openai
-```
-
-If you've already accidentally committed your API key:
-
-1. Immediately revoke the exposed key in your OpenAI dashboard
-2. Generate a new API key
-3. Update your local .env file with the new key
-4. Use git filter-branch to remove the key from your git history:
-
-```bash
-git filter-branch --force --index-filter \
-"git rm --cached --ignore-unmatch path/to/file/with/key" \
---prune-empty --tag-name-filter cat -- --all
-```
-
-Additional Security Tips:
-1. Consider using GitHub Secrets if you're using GitHub Actions
-2. Use API key rotation practices
-3. Set up API key usage limits in your OpenAI dashboard
-4. Consider using a service like HashiCorp Vault for production deployments
-
-Remember:
-- Never commit API keys or sensitive credentials
-- Always use environment variables for sensitive data
-- Regularly audit your repository for sensitive information
-- Use GitHub's security alerts and dependency scanning
-
-These practices will help keep your API key secure while still allowing others to use your project by adding their own API keys.
+If something breaks, try turning it off and on again. If that doesn't work, feel free to open an issue and I'll pretend to know what's wrong.
